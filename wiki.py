@@ -9,7 +9,7 @@ import wikipedia
 
 
 tree_of_topics=[]
-
+#don't make max_length too large
 max_length=10
 def get_topics(keyword,list_of_topics,max_length):
     if len(list_of_topics) < max_length:
